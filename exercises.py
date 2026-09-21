@@ -20,3 +20,18 @@ def manage_students():
 
 
 print('Exercise 1:', manage_students())
+
+# Exercise 2: Loop and String Concatenation
+
+def combine_foods():
+    foods = ('pizza', 'pasta', 'burger')
+
+    meal = ''
+
+    for food in foods:
+        meal += food
+
+    return meal
+
+
+print('Exercise 2:', combine_foods())
