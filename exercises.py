@@ -63,3 +63,22 @@ def hometown_info():
 
 
 print('Exercise 4:', hometown_info())
+
+# Exercise 5: Iterating Over Dictionary Items
+
+def list_home_town_items():
+    home_town = {
+        'city': 'Manama',
+        'state': 'Bahrain',
+        'population': 200000
+    }
+
+    home_town_items = []
+
+    for key, value in home_town.items():
+        home_town_items.append(f"{key} = {value}")
+
+    return home_town_items
+
+
+print('Exercise 5:', list_home_town_items())
