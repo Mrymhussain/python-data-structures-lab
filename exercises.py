@@ -95,3 +95,16 @@ def create_awesome_students():
 
 print('Exercise 6:', create_awesome_students())
 
+
+# Exercise 7: Filter Foods
+
+def filter_foods_with_a():
+    foods = ('Taco', 'Burrito', 'Sandwich')
+
+    foods_with_an_a = [food for food in foods if 'a' in food]
+
+    return foods_with_an_a
+
+
+print('Exercise 7:', filter_foods_with_a())
+
