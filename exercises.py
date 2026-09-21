@@ -47,3 +47,19 @@ def slice_foods():
 
 
 print('Exercise 3:', slice_foods())
+
+# Exercise 4: Dictionaries and String Formatting
+
+def hometown_info():
+    home_town = {
+        'city': 'Manama',
+        'state': 'Bahrain',
+        'population': 200000
+    }
+
+    home_town_message = f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}"
+
+    return home_town_message
+
+
+print('Exercise 4:', hometown_info())
