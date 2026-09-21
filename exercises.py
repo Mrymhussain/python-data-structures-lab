@@ -82,3 +82,16 @@ def list_home_town_items():
 
 
 print('Exercise 5:', list_home_town_items())
+
+# Exercise 6: Celebrate Students
+
+def create_awesome_students():
+    students = ['Maryam', 'Sara', 'Ali']
+
+    awesome_students = [f"{student} is awesome!" for student in students]
+
+    return awesome_students
+
+
+print('Exercise 6:', create_awesome_students())
+
